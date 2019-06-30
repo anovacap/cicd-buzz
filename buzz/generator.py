@@ -22,6 +22,5 @@ def generate_buzz():
                       sample(verbs), buzz_terms[1]])
     return phrase.title()
 
-
 if __name__ == "__main__":
     print(generate_buzz())
